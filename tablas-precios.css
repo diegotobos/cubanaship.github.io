@@ -1,0 +1,109 @@
+body{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    background: #B7CADB;
+}
+
+h2{
+    font-weight: 800;
+}
+
+p{
+    font-weight: 500;
+}
+hr{
+    color: #EFF8FF;
+    border: 3px solid #EFF8FF;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.text-center{
+    text-align: center;
+}
+.btn-precio{
+    background: #99A799;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.subrayado{
+    background: #707070;
+}
+.subrayado2{
+    background: #6E7C7C;
+    margin: auto;
+    border: #435560 3px solid;
+    border-radius: 10px;
+    width: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.texto{
+    background: #92A9BD;
+    margin: 0 auto;
+    width: auto;
+    border: #7C99AC 3px solid;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.btn-precio:hover{
+    background:#88958c ;
+}
+.columna{
+    background: #E4EFE7;
+    color: #A2B29F;
+    border: 1px solid #435560;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px #6E85B7;
+    width: 23%;
+    box-sizing: border-box;
+    float: left;
+}
+.precio{
+    font-size: 50px;
+    color: #AFB9C8;
+}
+@media(max-width: 1070px){
+    .columna{
+        width: 45%; 
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 600px){
+    .columna{
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 1070px){
+    .texto{
+        width:45% ;
+    }
+    .subrayado2{
+        width: 45%;
+        margin: auto;
+    }
+}
+@media(max-width: 600px){
+    .texto{
+        width: 100%;
+    }
+    .subrayado2{
+        width: 100%;
+        margin: auto;
+    }
+}
